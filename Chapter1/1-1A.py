@@ -1,6 +1,6 @@
-def separate_section():
-    print("-" * 80)
-n = int(input('please input the number : '))
+from separate import separate_section
+
+n = int(input('Please input the number : '))
 sum = 0 
 for i in range(1,n+1):
     print('i   is : ',i)
